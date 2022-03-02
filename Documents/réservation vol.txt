@@ -1,0 +1,38 @@
+Système de réservation de vol
+
+Une partie décrit les vols possibles. *
+Une partie décrit les réservations sur ces vols. *
+
+Vols
+
+Entité Ville. *
+Entité Aéroport. *
+Chaque aéroport est situé dans au moins une ville. *
+Une ville peut ne pas avoir d'aéroport.
+
+Entité Compagnie aérienne. *
+Entité Vol. *
+Entité VolGénérique. *
+
+Une compagnie propose des vols à la réservation. *
+Une compagnie définit des vols génériques.
+Un vol générique décrit le vol réel. *
+Un numéro est attribué à chaque vol générique. *
+A chaque vol correspond un et un seul vol générique. 
+
+Un vol générique comprend un départ à partir d'un et d'un seul aéroport. *
+Un vol générique comprend une arrivée à un et un seul aéroport. *
+Un vol générique peut comprendre des escales dans différents aéroports. *
+Une entité InfosEscale reprend les informations de chaque escale pour les vols génériques. *
+
+Réservations
+
+Entité Client. *
+Entité Réservation. *
+Entité Passager. *
+
+Chaque réservation est faite par un client. *
+On peut confirmer la réservation. *
+On peut annuler la réservation. *
+Chaque réservation est faite au nom d'un passager. *
+Chaque réservation correspond à un vol réel. *

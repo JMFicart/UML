@@ -1,0 +1,19 @@
+Le système permet des achats en ligne. *
+Le système possède une fonctionnalité View Items. *
+Le système possède une fonctionnalité Make Purchase. *
+Le système possède une fonctionnalité Checkout. *
+Le système possède une fonctionnalité Client Register. *
+
+Il y a un type abstrait d'utilisateur : le Web Customer. *
+Le Web Customer peut être un nouvel Customer. *
+Le Web Customer peut être un Customer déjà enregistré. *
+
+Le nouvel Customer a accès à la fonctionnalité Client Register. *
+Le nouvel Customer a accès à la fonctionnalité View Items. *
+
+Le Customer enregistré a accès à la fonctionnalité View Items. *
+Le Customer enregistré a accès à la fonctionnalité Make Purchase. *
+Le Customer enregistré a accès à la fonctionnalité Checkout via Make Purchase.
+
+
+
